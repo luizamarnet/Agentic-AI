@@ -1,0 +1,22 @@
+[project]
+name = "agentics-ai-redi"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "luizamarnet", email = "luizamarnet@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "jupyter>=1.1.1",
+    "numpy>=2.4.6",
+    "pandas>=3.0.6",
+]
+
+[project.scripts]
+agentics-ai-redi = "agentics_ai_redi:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
