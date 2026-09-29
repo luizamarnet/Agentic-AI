@@ -2,6 +2,9 @@
 .env
 .env.*
 
+# files
+git_steps.txt
+
 # Python
 __pycache__/
 *.py[cod]
